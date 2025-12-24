@@ -1,0 +1,61 @@
+/* Srt font */
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
+
+* {
+    margin: 100;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:  "Lato", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+}
+
+body {
+    background: linear-gradient(200deg, rgb(107, 107, 187), rgb(233, 161, 173));
+    min-height: 100%;
+    background-attachment: fixed;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+#nav-bar {
+    height: 80px;
+    background: transparent;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0px 50px 0px 100px;
+}
+
+#nav-bar .logo {
+    color: white;
+    font-size: 30px;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+
+#nav-bar .nav-link-bar{
+    display: flex;
+    list-style: none;
+    gap: 20px;
+}
+
+#nav-bar .nav-link-bar li a {
+    color: white;
+    text-decoration: none;
+    font-size: 1.2rem;
+    font-weight: 500;
+    letter-spacing: 0.5rem;
+    padding: 8px 10px;  
+    transition: all 0.5s ease;
+}
+
+#nav-bar .nav-link-bar li a:hover,
+#nav-bar .nav-link-bar li a.active {
+    background-color: white;
+    color: hwb(216 62% 14%);
+    transition: 0.3s ease;
+    border-radius: 20px;
+}
+
