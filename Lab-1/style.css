@@ -55,7 +55,7 @@ body {
 #nav-bar .nav-link-bar li a.active {
     background-color: white;
     color: hwb(216 62% 14%);
-    transition: 0.3s ease;
+    transition: 0.3s ease   ;
     border-radius: 20px;
 }
 

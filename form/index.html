@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form sign in</title>
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="login-container">
+        <div class="login-icon">
+            <i class="fa-brands fa-github"></i>
+        </div>
+        <h2 class="login-topic">Sign in github</h2>
+
+    <form method="post" action="#">
+        <label for="Username">Username or Email</label>
+    
+        <input type="text" id="username" name="username" required placeholder="Enter your username"> 
+        <label for="password">Password</label>
+        <input type="password" id="password" name="password" required placeholder="Enter your password">
+
+        <button type="submit" class="login-button">Sign in</button>
+
+        <div class="divider">
+            <hr class="divider-line">
+            <span class="divider-text">OR</span>
+        </div>
+
+        <button class="btn-social">
+                <i class="fa-brands fa-google"></i>
+                Continue with Google
+        </button>
+
+            <button class="btn-social">
+                <i class="fa-brands fa-apple"></i>
+                Continue with Apple
+        </button>
+
+        <div class="signup-link">
+            <span>New to Github</span>
+            <a href="signup.html">Create an account</a>
+        </div>
+
+        
+        </div>
+        
+    </form>    
+</body>
+</html>
